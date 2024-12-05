@@ -244,7 +244,7 @@ class Player {
     
 
     const explosionImage = new Image();
-    explosionImage.src = '../imgs/1x/explosion.png';
+    explosionImage.src = '/imgs/1x/explosion.png';
 
     function handleExplosions() {
         explosions.forEach((explosion, index) => {
@@ -297,7 +297,7 @@ class Player {
     }
 
     const titleImage = new Image();
-    titleImage.src = '../imgs/1x/JOTPK.png';
+    titleImage.src = '/imgs/1x/JOTPK.png';
     let showTitle = true;
     let titleStartTime = null;
 
